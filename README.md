@@ -123,3 +123,40 @@
 
 </body>
 </html>
+<!--This is where the CSS starts-->
+body {
+    background: url(wood.jpg) no-repeat fixed center;
+	background-size: cover;
+	
+}
+
+h1 { 
+    color: white;
+    text-align: center;
+	 box-shadow: 0px 8px 16px 0px rgba(0,10,0,50);
+	 background-color: #00ffcc;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+	color: white;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(odd){background-color: #f2f2f2}
+th, td {
+    text-align: left;
+	color:black;
+    padding: 8px;
+}
+
+
+
+th {
+    background-color: #00ffcc;
+    color: white;
+}
